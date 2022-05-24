@@ -27,12 +27,16 @@ body {
   padding: 20px;
   flex: 1;
   margin: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   background: #6edb6e;
   padding: 20px;
-  height: 300px;
+  min-height: 300px;
   width: 25%;
   display: flex;
   justify-content: center;
